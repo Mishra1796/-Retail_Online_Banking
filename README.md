@@ -69,17 +69,25 @@ Retail Online Banking is a web-based application that allows customers to manage
 ### 📁 Project Structure
 
 ```
-src/
-├── main/
-│   ├── java/
-│   │   └── com.banking.retail/
-│   │       ├── controller/
-│   │       ├── service/
-│   │       ├── repository/
-│   │       └── model/
-│   └── resources/
-│       ├── application.properties
-```
+Project_BankApplicationForm/
+│
+├── .mvn/wrapper/                    # Maven wrapper files for consistent builds
+│   ├── maven-wrapper.jar
+│   └── maven-wrapper.properties
+│
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/alexa/bank/apps/
+│               ├── controller/     # Contains REST controllers (API endpoints)
+│               ├── dto/           # Data Transfer Objects used between client and server
+│               ├── entity/        # JPA entities mapped to database tables
+│               ├── exception/     # Custom exception handling classes
+│               ├── repo/          # Spring Data JPA repositories (DAO layer)
+│               ├── service/       # Business logic layer (interfaces and implementations)
+│               └── ProjectBankAppFormApplication.java  # Main Spring Boot application class
+│
+├── pom.xml                         # Maven configuration file
 
 ---
 
