@@ -60,16 +60,16 @@ Retail Online Banking is a web-based application that allows customers to manage
 3. Configure MySQL credentials in `application.properties`
 4. Swagger login url
 
-       ```bash
-        http://localhost:9000/swagger-ui/index.html#/
-        ```
+   ```bash
+    http://localhost:9000/swagger-ui/index.html#/
+   ```
 
 5. H2 database login url 
 
-        ```
-        http://localhost:9000/h2-console/
-        ```
-        
+    ```bash
+    http://localhost:9000/h2-console/
+    ```
+
 5. Run the application:
 
    ```bash
