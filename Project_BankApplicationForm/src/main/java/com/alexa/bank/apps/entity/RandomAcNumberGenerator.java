@@ -23,3 +23,4 @@ public class RandomAcNumberGenerator {
 	private long acnumber;
 
 }
+

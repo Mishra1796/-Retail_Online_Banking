@@ -2,7 +2,6 @@ package com.alexa.bank.apps.entity;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
