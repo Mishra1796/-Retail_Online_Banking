@@ -58,23 +58,24 @@ Retail Online Banking is a web-based application that allows customers to manage
    ```
 2. Import into your favorite IDE (IntelliJ/Eclipse)
 3. Configure MySQL credentials in `application.properties`
-4. Swagger login url
+4. Run the application:
+
+   ```bash
+   mvn spring-boot:run
+   ```
+5. Swagger login url
 
    ```bash
     http://localhost:9000/swagger-ui/index.html#/
    ```
 
-5. H2 database login url 
+6. H2 database login url 
 
     ```bash
     http://localhost:9000/h2-console/
     ```
 
-5. Run the application:
 
-   ```bash
-   mvn spring-boot:run
-   ```
 
 ---
 
